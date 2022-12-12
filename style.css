@@ -164,6 +164,11 @@ img{
   width: 100px;
 }
 
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 a:link {
   
   color: rgb(173, 241, 255);
